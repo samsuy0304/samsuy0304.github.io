@@ -1,0 +1,105 @@
+/* styles_about.css */
+
+/* Specific styles for about.html */
+
+/* Header */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 50px; /* Increase top and bottom padding */
+}
+
+.logo-name {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.logo-name img {
+    width: 50px; /* Adjust the width of your logo */
+    height: 50px;
+    margin-right: 20px; /* Adjust margin between logo and name */
+}
+
+.logo-name h2 {
+    margin: 0;
+}
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.description {
+    width: 60%; /* Adjust as needed */
+    text-align: justify;
+}
+
+.social-links {
+    width: 30%; /* Adjust as needed */
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Profile photo */
+.profile-photo {
+    max-width: 50%; /* Adjust the maximum width as needed */
+    margin-right: 20px; /* Adjust spacing from the description */
+}
+
+/* Page title and fancy quote */
+.page-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quote-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.line {
+    flex: 1;
+    height: 20px;
+    background-color: #333; /* Line color */
+}
+
+.quote {
+    padding: 0 20px;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 0;
+    line-height: 1.5;
+}

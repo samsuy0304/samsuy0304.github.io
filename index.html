@@ -1,7 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Inline CSS for the background image */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, sans-serif;
+            background-image: url('images/background_mainpage.jpg'); /* Path adjusted */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* ... your other styles ... */
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="content-box">
+        <img src="images/mainpage_ph.jpg" alt="Your Image">
+        <div class="navigation">
+            <a href="about.html">About</a>
+            <a href="data_science.html">Data Science</a>
+            <a href="computer_vision.html">Computer Vision</a>
+            <a href="creative.html">Creative</a>
+        </div>
+        <a class="explore-button" href="about.html">Explore!</a>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
