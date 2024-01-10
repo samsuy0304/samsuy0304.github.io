@@ -59,27 +59,24 @@ a:hover {
     font-weight: bold;
 }
 
-/* Content */
-.content {
-    
+.row {
   display: flex;
 }
 
-.row{
-  flex:50%;
+.column {
+  flex: 50%;
 }
 .description {
-  margin-top: 60%;
-  margin-left: -200px;
-  margin-right: 290px;
-  align-items: center;
+  margin-top: 40%;
+  margin-right: 20%;
+
 }
 /* Profile photo */
 .profile-photo {
   max-width: auto; /* Adjust the maximum width as needed */
   height: 600px; /* Adjust spacing from the description */
-  margin-left: 20px;
-  margin-right: -300px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .projects-button {
@@ -137,16 +134,15 @@ a:hover {
 }
 
 .line {
-  border-left: 600px solid rgb(1, 2, 1);
+  border-left: 50vw solid rgb(1, 2, 1);
   height: 1px;
   position: relative;
-  left: 50%;
-  margin-left: -300px;
+  margin-left: 25vw;
   top: 0;
 }
 
 .quote {
-    padding: 0 20px;
+    padding: 0px;
     max-width: 50%;
     margin-left: 25%;
     position: relative;
