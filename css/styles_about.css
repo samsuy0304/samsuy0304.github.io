@@ -25,9 +25,9 @@
 }
 
 .logo-name img {
-    width: 50px; /* Adjust the width of your logo */
-    height: 50px;
-    margin-right: 20px; /* Adjust margin between logo and name */
+    width: 65px; /* Adjust the width of your logo */
+    height: 65px;
+    margin-right: 0px; /* Adjust margin between logo and name */
 }
 
 .logo-name h2 {
@@ -38,6 +38,20 @@
     display: flex;
 }
 
+a {
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove highlight */
+  /* Additional styles */
+  color: #333;
+}
+
+/* Style the anchor elements on hover if needed */
+a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  outline: none; /* Remove highlight on hover */
+  /* Additional styles on hover */
+  color: #000000;
+}
 .navigation a {
     margin-left: 20px;
     text-decoration: none;
@@ -47,39 +61,73 @@
 
 /* Content */
 .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    max-width: 1000px;
+    
+  display: flex;
 }
 
+.row{
+  flex:50%;
+}
 .description {
-    width: 100%; /* Adjust as needed */
-    text-align: justify;
+  margin-top: 60%;
+  margin-left: -200px;
+  margin-right: 290px;
+  align-items: center;
+}
+/* Profile photo */
+.profile-photo {
+  max-width: auto; /* Adjust the maximum width as needed */
+  height: 600px; /* Adjust spacing from the description */
+  margin-left: 20px;
+  margin-right: -300px;
+}
+
+.projects-button {
+  margin-top: 10px;
+}
+
+.projects-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.projects-button a:hover {
+  background-color: #2980b9;
 }
 
 .social-links {
-    width: 30%; /* Adjust as needed */
+  margin-top: 20px;
 }
 
+/* Style the social media icons */
 .social-links a {
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #333;
+  display: inline-block;
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  text-align: center;
+  line-height: 40px; /* Center the icon vertically */
+  margin-right: 10px; /* Add some space between icons, adjust as needed */
+  font-size: 20px; /* Adjust the icon size as needed */
+  
+  text-decoration: none;
 }
 
-/* Profile photo */
-.profile-photo {
-    max-width: 50%; /* Adjust the maximum width as needed */
-    margin-right: 20px; /* Adjust spacing from the description */
+/* Remove margin from the last icon to avoid extra space */
+.social-links a:last-child {
+  margin-right: 0;
 }
+
+
 
 /* Page title and fancy quote */
 .page-title {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .quote-wrapper {
@@ -89,20 +137,28 @@
 }
 
 .line {
-    flex: 1;
-    height: 20px;
-    background-color: #333; /* Line color */
+  border-left: 600px solid rgb(1, 2, 1);
+  height: 1px;
+  position: relative;
+  left: 50%;
+  margin-left: -300px;
+  top: 0;
 }
 
 .quote {
     padding: 0 20px;
+    max-width: 50%;
+    margin-left: 25%;
+    position: relative;
 }
 
 .quote p {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin: 0;
     line-height: 1.5;
+    color: #434343;
+  
 }
 
 
@@ -116,25 +172,41 @@ body {
 }
 
 /* Additional styles for other elements */
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   /* Example: Changing font for headings */
   font-family: 'Roboto', sans-serif; /* Change this to your desired font */
   /* Additional styles for headings */
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif; /* Change the font family */
+  /* Additional styles */
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
 p {
   /* Example: Changing font for paragraphs */
   font-family: 'Roboto', sans-serif; /* Change this to your desired font */
   /* Additional styles for paragraphs */
+  font-size: 22px;
 }
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
+  padding: 0px;
   font-size: 30px;
-  width: 50px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
+  margin: 5px 2px;
+  display: flex;
+  transform: scale(.95,.95);
+  border-radius: 50%;
 }
 
 /* Add a hover effect if you want */
@@ -144,14 +216,25 @@ p {
 
 /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
+
+.fa-github {
+  background: #000000;
   color: white;
 }
 
-/* Twitter */
-.fa-twitter {
+
+.fa-instagram {
   background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #f00064;
+  color: white;
+}
+
+.fa-youtube {
+  background: #ff0000;
   color: white;
 }
