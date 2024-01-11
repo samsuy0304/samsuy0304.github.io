@@ -1,9 +1,12 @@
-function scrollToSection(sectionId) {
-    var section = document.getElementById(sectionId);
-    var offsetTop = section.offsetTop;
+document.addEventListener('DOMContentLoaded', function () {
+    // Add smooth scrolling to all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-    window.scroll({
-        top: offsetTop,
-        behavior: 'smooth'
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
     });
-}
+});

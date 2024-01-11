@@ -8,9 +8,15 @@
 
 
 .about-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: center;
 }
 
 .header {
@@ -19,6 +25,38 @@
   align-items: center;
   width: 95%;
   padding: 30px; /* Increase top and bottom padding */
+}
+.navbar{
+  position: inherit;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.navbar ul li{
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navbar ul li a:hover{
+  color:#2980b9;
 }
 
 .logo-name {
@@ -62,6 +100,21 @@ a:hover {
     color: #333;
     font-weight: bold;
 }
+
+
+
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
 
 @media (max-aspect-ratio: 3/4) {
   .row {   
