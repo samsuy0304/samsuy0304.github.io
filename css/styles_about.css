@@ -1,20 +1,24 @@
 /* styles_about.css */
 
 /* Specific styles for about.html */
+.wrapper {
+  position: relative;
+}
 
-/* Header */
+
+
 .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95%;
-    padding: 30px; /* Increase top and bottom padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding: 30px; /* Increase top and bottom padding */
 }
 
 .logo-name {
@@ -59,9 +63,17 @@ a:hover {
     font-weight: bold;
 }
 
-.row {
-  display: flex;
-}
+@media (max-aspect-ratio: 3/4) {
+  .row {   
+    display: flex;
+    flex-direction: column;
+  }
+  }
+  @media (min-aspect-ratio: 4/3) {
+  .row {   
+    display: flex;
+  }
+  }
 
 .column {
   flex: 50%;
@@ -233,4 +245,28 @@ p {
 .fa-youtube {
   background: #ff0000;
   color: white;
+}
+
+
+
+
+/*intersts */
+.interests {
+  margin-top: 30px;
+}
+
+.interest-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.interest-item i {
+  font-size: 24px; /* Adjust the icon size as needed */
+  margin-right: 10px;
+}
+
+.interest-item p {
+  margin: 0;
+  font-weight: bold;
 }

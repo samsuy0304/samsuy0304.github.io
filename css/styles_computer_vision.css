@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.scroll-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-btn:hover {
+    background-color: #2980b9;
+}
+
+.project-section {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-section h2 {
+    color: #333;
+}
+
+
+
+
+/*Project Boxes */
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.project-box img {
+    width: 100px; /* Adjust the width of the image as needed */
+    height: 100px; /* Adjust the height of the image as needed */
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project-info p {
+    color: #666;
+}
+
