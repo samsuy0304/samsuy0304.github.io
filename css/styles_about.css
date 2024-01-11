@@ -1,21 +1,35 @@
 /* styles_about.css */
 
 /* Specific styles for about.html */
-.wrapper {
-  position: relative;
+body {
+  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+  /* Additional styles for the body */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  /* Other styles */
+  overflow: hidden;
+}
+.about-container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  
 }
 
 
 
-.about-container {
-  width: 100%;
-  height: 100%;
+
+section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
   scroll-snap-align: center;
 }
 
@@ -34,6 +48,7 @@
   width: 100%;
   height: 60px;
   background: rgba(0,0,0,0.7);
+  position: fixed;
 }
 
 .navbar ul{
@@ -103,16 +118,6 @@ a:hover {
 
 
 
-
-section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 100vh;
-}
 
 
 
@@ -224,13 +229,7 @@ section{
 
 
 
-body {
-  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
-  /* Additional styles for the body */
-  margin: 0;
-  padding: 0;
-  /* Other styles */
-}
+
 
 /* Additional styles for other elements */
 h2, h3, h4, h5, h6 {

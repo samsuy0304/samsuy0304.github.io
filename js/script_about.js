@@ -1,14 +1,12 @@
 // java_about.js
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Add smooth scroll behavior for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
+// $('.navbar a').on('click',function(e)){
+//     if(this.hash !=''){
+//         e.preventDefault();
+//         const has = this.hash;
+//         $('html,body').animate({scrollTop: $(hash).offset().scrollTop})
+//         800
+//     }
+// }
 
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-});
+const scroll = new SmoothScroll('.navbar a[href*="#"]', {speed:800});
