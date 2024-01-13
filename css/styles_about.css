@@ -29,8 +29,7 @@ section{
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
-  scroll-snap-align: center;
+  padding-bottom: 4em;
 }
 
 .header {
@@ -38,40 +37,7 @@ section{
   justify-content: space-between;
   align-items: center;
   width: 95%;
-  padding: 30px; /* Increase top and bottom padding */
-}
-.navbar{
-  position: inherit;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  width: 100%;
-  height: 60px;
-  background: rgba(0,0,0,0.7);
-  position: fixed;
-}
-
-.navbar ul{
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: center;
-
-}
-
-.navbar ul li{
-  margin: 0 1rem;
-  padding: 1rem;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.navbar ul li a:hover{
-  color:#2980b9;
+  padding: 30px 50px; /* Increase top and bottom padding */
 }
 
 .logo-name {
@@ -119,34 +85,27 @@ a:hover {
 
 
 
-
-
-@media (max-aspect-ratio: 3/4) {
-  .row {   
-    display: flex;
-    flex-direction: column;
-  }
-  }
-  @media (min-aspect-ratio: 4/3) {
-  .row {   
-    display: flex;
-  }
-  }
+.row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Center the flex items horizontally */
+  align-items: ; /* Center the flex items vertically */
+}
 
 .column {
-  flex: 50%;
+  display: flex;
+  align-items: center;
 }
-.description {
-  margin-top: 40%;
-  margin-right: 20%;
-
+.description{
+  padding: 12em;
+  padding-right: 12em;
 }
 /* Profile photo */
 .profile-photo {
   max-width: auto; /* Adjust the maximum width as needed */
   height: 600px; /* Adjust spacing from the description */
-  margin-left: 0px;
-  margin-right: 0px;
+  float: right;
+  border-radius: 50%;
 }
 
 .projects-button {
@@ -154,17 +113,20 @@ a:hover {
 }
 
 .projects-button a {
+  margin-top: 15px;
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
   text-decoration: none;
+  background-color: #333;
   border-radius: 5px;
-  font-weight: bold;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 16px; /* Adjust the padding as needed */
 }
 
 .projects-button a:hover {
-  background-color: #2980b9;
+  background-color: black;
+  color: white;
 }
 
 .social-links {
@@ -195,6 +157,7 @@ a:hover {
 .page-title {
     text-align: center;
     margin-top: 25px;
+    padding: 20px;
 }
 
 .quote-wrapper {
@@ -223,7 +186,7 @@ a:hover {
     font-size: 1.6em;
     margin: 0;
     line-height: 1.5;
-    color: #434343;
+    color: #333333;
   
 }
 
@@ -239,12 +202,14 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif; /* Change the font family */
-  /* Additional styles */
+  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+  font-size: 40px;
 }
 
-h2{
-  font-family: 'Courier New', Courier, monospace;
+h3{
+  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+  font-size: 20px;
+  color: #363636;
 }
 
 
@@ -284,13 +249,13 @@ p {
 
 
 .fa-instagram {
-  background: #55ACEE;
+  background: #f00064;
   color: white;
 }
 
 
 .fa-linkedin {
-  background: #f00064;
+  background: #55ACEE;
   color: white;
 }
 
@@ -305,12 +270,26 @@ p {
 /*intersts */
 .interests {
   margin-top: 30px;
+  display: flex;
+  max-width: 75%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .interest-item {
-  display: flex;
+  
   align-items: center;
   margin-bottom: 15px;
+
+  padding: 20px;
+  width: 20%;
+  width: 20%;
+}
+
+.interest-item img{
+  width: 100px;
+  height: 100px;
 }
 
 .interest-item i {
@@ -321,4 +300,5 @@ p {
 .interest-item p {
   margin: 0;
   font-weight: bold;
+  text-wrap: wrap;
 }
