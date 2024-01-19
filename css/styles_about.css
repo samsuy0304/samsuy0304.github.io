@@ -1,5 +1,6 @@
 /* styles_about.css */
-
+html {
+  scroll-behavior: smooth;}
 /* Specific styles for about.html */
 body {
   font-family: 'Roboto', sans-serif; /* Change this to your desired font */
@@ -7,19 +8,13 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  /* Other styles */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .about-container {
   width: 100%;
   height: 100vh;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
   
 }
-
-
 
 
 section{
@@ -29,7 +24,7 @@ section{
   justify-content: center;
   text-align: center;
   width: 100%;
-  padding-bottom: 4em;
+  padding-bottom: 8em;
 }
 
 .header {
@@ -89,7 +84,7 @@ a:hover {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly; /* Center the flex items horizontally */
-  align-items: ; /* Center the flex items vertically */
+  align-items: center; /* Center the flex items vertically */
 }
 
 .column {
@@ -97,13 +92,14 @@ a:hover {
   align-items: center;
 }
 .description{
-  padding: 12em;
-  padding-right: 12em;
+  padding: 2em;
+  padding-right: 11em;
+  padding-left: 9em;
 }
 /* Profile photo */
 .profile-photo {
   max-width: auto; /* Adjust the maximum width as needed */
-  height: 600px; /* Adjust spacing from the description */
+  height: 550px; /* Adjust spacing from the description */
   float: right;
   border-radius: 50%;
 }
@@ -153,32 +149,67 @@ a:hover {
 
 
 
-/* Page title and fancy quote */
+.arrange{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+#rotatingImage {
+  height: 550px;
+  top: 400px; left:-18%;
+  transition: transform 0.5s ease;
+  position: absolute;
+}
+
+#rotatingImage2 {
+  height: 650px;
+  top: 800px; right:-23%;
+  transition: transform 0.5s ease;
+  position: absolute;
+}
+
+
+.peaking-image{
+  padding: 2em;
+  padding-left: 3em;
+}
+
 .page-title {
-    text-align: center;
-    margin-top: 25px;
-    padding: 20px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7em;
+  
+  z-index: 1;
+  
 }
 
 .quote-wrapper {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  width: 85%;
+  align-items: center;
+  
 }
+
+
 
 .line {
   border-left: 50vw solid rgb(1, 2, 1);
   height: 1px;
-  position: relative;
-  margin-left: 25vw;
-  top: 0;
 }
 
 .quote {
-    padding: 0px;
+    
+    
     max-width: 50%;
     margin-left: 25%;
     position: relative;
+
 }
 
 .quote p {
@@ -236,7 +267,7 @@ p {
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.129);
 }
 
 /* Set a specific color for each brand */

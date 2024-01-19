@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;}
+  /* Specific styles for about.html */
+body {
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    /* Additional styles for the body */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+.priority-container {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 30px 50px; /* Increase top and bottom padding */
+}
+  
+.logo-name {
+      display: flex;
+      margin-top: 0px;
+  
+      align-items: center;
+}
+  
+.logo-name img {
+      width: 65px; /* Adjust the width of your logo */
+      height: 65px;
+      margin-right: 0px; /* Adjust margin between logo and name */
+}
+  
+.logo-name h2 {
+      margin: 0;
+}
+  
+.navigation {
+      display: flex;
+}
+  
+a {
+    text-decoration: none; /* Remove underline */
+    outline: none; /* Remove highlight */
+    /* Additional styles */
+    color: #333;
+}
+  
+  /* Style the anchor elements on hover if needed */
+a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    outline: none; /* Remove highlight on hover */
+    /* Additional styles on hover */
+    color: #000000;
+}
+.navigation a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+}
+
+
+
+.infoproject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+
+}
+
+.button_organize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+button {
+    margin-right: 10px; /* Adjust the spacing between buttons if needed */
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 8px 16px; /* Adjust the padding as needed */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+th {
+    background-color: #ffffff;
+}
+
+
+
+
+
+
