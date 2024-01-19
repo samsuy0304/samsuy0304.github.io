@@ -1,0 +1,335 @@
+/* styles_about.css */
+html {
+    scroll-behavior: smooth;}
+/* Specific styles for about.html */
+body {
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    /* Additional styles for the body */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  .about-container {
+    width: 100%;
+    height: 100vh;
+    
+  }
+  
+  
+  section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8em;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding: 30px 50px; /* Increase top and bottom padding */
+  }
+  
+  .logo-name {
+      display: flex;
+      margin-top: 0px;
+  
+      align-items: center;
+  }
+  
+  .logo-name img {
+      width: 65px; /* Adjust the width of your logo */
+      height: 65px;
+      margin-right: 0px; /* Adjust margin between logo and name */
+  }
+  
+  .logo-name h2 {
+      margin: 0;
+  }
+  
+  .navigation {
+      display: flex;
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline */
+    outline: none; /* Remove highlight */
+    /* Additional styles */
+    color: #333;
+  }
+  
+  /* Style the anchor elements on hover if needed */
+  a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    outline: none; /* Remove highlight on hover */
+    /* Additional styles on hover */
+    color: #000000;
+  }
+  .navigation a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+  }
+  
+  
+  
+  
+  .row {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+  }
+  
+  .column {
+    display: flex;
+    align-items: center;
+  }
+  .description{
+    padding: 2em;
+    padding-right: 11em;
+    padding-left: 9em;
+  }
+  /* Profile photo */
+  .profile-photo {
+    max-width: auto; /* Adjust the maximum width as needed */
+    height: 550px; /* Adjust spacing from the description */
+    float: right;
+    border-radius: 50%;
+  }
+  
+  .projects-button {
+    margin-top: 10px;
+  }
+  
+  .projects-button a {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 8px 16px; /* Adjust the padding as needed */
+  }
+  
+  .projects-button a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  /* Style the social media icons */
+  .social-links a {
+    display: inline-block;
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    text-align: center;
+    line-height: 40px; /* Center the icon vertically */
+    margin-right: 10px; /* Add some space between icons, adjust as needed */
+    font-size: 20px; /* Adjust the icon size as needed */
+    
+    text-decoration: none;
+  }
+  
+  /* Remove margin from the last icon to avoid extra space */
+  .social-links a:last-child {
+    margin-right: 0;
+  }
+  
+  
+  
+  .arrange{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #rotatingImage {
+    height: 550px;
+    top: 400px; left:-18%;
+    transition: transform 0.5s ease;
+    position: absolute;
+  }
+  
+  #rotatingImage2 {
+    height: 650px;
+    top: 800px; right:-23%;
+    transition: transform 0.5s ease;
+    position: absolute;
+  }
+  
+  
+  .peaking-image{
+    padding: 2em;
+    padding-left: 3em;
+  }
+  
+  .page-title {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    
+    z-index: 1;
+    
+  }
+  
+  .quote-wrapper {
+    width: 85%;
+    align-items: center;
+    
+  }
+  
+  
+  
+  .line {
+    border-left: 50vw solid rgb(1, 2, 1);
+    height: 1px;
+  }
+  
+  .quote {
+      
+      
+      max-width: 50%;
+      margin-left: 25%;
+      position: relative;
+  
+  }
+  
+  .quote p {
+      font-style: italic;
+      font-size: 1.6em;
+      margin: 0;
+      line-height: 1.5;
+      color: #333333;
+    
+  }
+  
+  
+  
+  
+  
+  /* Additional styles for other elements */
+  h2, h3, h4, h5, h6 {
+    /* Example: Changing font for headings */
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    /* Additional styles for headings */
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    font-size: 40px;
+  }
+  
+  h3{
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    font-size: 20px;
+    color: #363636;
+  }
+  
+  
+  
+  p {
+    /* Example: Changing font for paragraphs */
+    font-family: 'Roboto', sans-serif; /* Change this to your desired font */
+    /* Additional styles for paragraphs */
+    font-size: 22px;
+  }
+  
+  /* Style all font awesome icons */
+  .fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    display: flex;
+    transform: scale(.95,.95);
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    color: rgba(255, 255, 255, 0.129);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #f00064;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #ff0000;
+    color: white;
+  }
+  
+  
+  
+  
+  /*intersts */
+  .interests {
+    margin-top: 30px;
+    display: flex;
+    max-width: 75%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .interest-item {
+    
+    align-items: center;
+    margin-bottom: 15px;
+  
+    padding: 20px;
+    width: 20%;
+    width: 20%;
+  }
+  
+  .interest-item img{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .interest-item i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-right: 10px;
+  }
+  
+  .interest-item p {
+    margin: 0;
+    font-weight: bold;
+    text-wrap: wrap;
+  }
