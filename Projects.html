@@ -5,31 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content = "ie=edge">
-    <title>S - Projects</title>
+    <title>About - Suyash Sakhare</title>
     <link rel="stylesheet" href="css/styles_Projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    
 </head>
 
 
 <body>
     
     <div class="about-container">
-        <div class="header">
-            <div class="logo-name">
-                <img src="images/slogo.png" alt="Your Logo">
-                <a href="index.html"><h2>YASH</h2></a>
+        
+        <section id = "intro" class ="scroller">
+            <div class="header">
+                <div class="logo-name">
+                    <img src="images/slogo.png" alt="Your Logo">
+                    <a href="index.html"><h2>YASH</h2></a>
+                </div>
+                <div class="navigation">
+                    <a href="about.html">Home</a>
+                    <a href="Education.html">Education</a>
+                    <a href="Projects.html">Projects</a>
+
+                </div>
             </div>
-            <div class="navigation">
-                <a href="about.html">Home</a>
-                <a href="Education.html">Education</a>
-                <a href="Projects.html">Projects</a>
-                <a href="contact.html">Creative</a>
-                <a href="Blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
+        </section>
         
         <section id = "Projectland" class ="nscroller">
             
@@ -50,35 +49,33 @@
             <h2>Data Science Projects</h2>
             <div class="project-list">
                 <div class="project-box" onclick="showProjectInfo('VNA Data Visualization: CMS Differeantial Pair Cables', 'Python code designed to read and visualize data acquired from Vector Network Analyzers (VNAs) during quality and reliability testing of multi-channel differential pair cables utilized in the CMS (Compact Muon Solenoid) upgrade.', 'images/VNA_measuremetn.png','https://github.com/samsuy0304/VNA_CMS')">
-                    <img src="images/Suyash-website.png" alt="Data Science Image">
                     <div class="project-info">
                         <h3>VNA Data Visualization: CMS Differeantial Pair Cables</h3>
                     </div>
                 </div>
 
                 <div class="project-box" onclick="showProjectInfo('Customizable Deep Neural Network with Numpy (No Library)', 'Best way to learn something is to understand the math behind it. Here is a code that unveils what goes on in deep neural network. The layering is customizable and any data - preferably in batches - can be fed.', 'images/neural.jpg','https://github.com/samsuy0304/VNA_CMS')">
-                    <img src="images/Suyash-website.png" alt="Data Science Image">
                     <div class="project-info">
                         <h3>Customizable Deep Neural Networks from scratch with Numpy</h3>
                     </div>
                 </div>
             
                 <div class="project-box" onclick="showProjectInfo('Algo-Rhythms', 'Implementation and Visualization of popular Algo-Rhythms. ', 'images/Algorythm.png','https://github.com/samsuy0304/Algo-Rhythms')">
-                    <img src="images/Suyash-website.png" alt="Data Science Image">
+                    
                     <div class="project-info">
                         <h3>Algo-Rhythms</h3>
                     </div>
                 </div>
 
                 <div class="project-box" onclick="showProjectInfo('Priority-based Error Tracking', 'A skeletal implementation of error tracking system that we designed for monitoring the CMS front-end drivers.', 'images/Frontend_CMS.png','Priority_based.html')">
-                    <img src="images/Suyash-website.png" alt="Data Science Image">
+                    
                     <div class="project-info">
                         <h3>Priority-based Error Tracking</h3>
                     </div>
                 </div>
 
                 <div class="project-box" onclick="showProjectInfo('Get That Job!', 'A bot that will help you find companies that sponsor H1B. Enhancements under way. Job search can be hard, but I believe in you. Go Get That Job!', 'images/h1b.png','https://github.com/samsuy0304/GetThatJob')">
-                    <img src="images/Suyash-website.png" alt="Data Science Image">
+                    
                     <div class="project-info">
                         <h3>Get That Job!</h3>
                     </div>
@@ -91,27 +88,19 @@
             <h1>Computer Vision</h1>
             <div class="project-list">
                 <div class="project-box" onclick="showProjectInfo('Adding Low Momentum Leptop to Compressed SUSY Search.', 'A framework to measure signal and background Supersymetric particles is used to define the identification criteria for low momentum electrons used Monte Carlo Simulation.The efficiency of the Compact Muon Solenoid to detect low momentum leptons is determined.', 'images/LowMomentum.png','https://github.com/samsuy0304/Algo-Rhythms')">
-                    <img src="images/Suyash-website.png" alt="Computer Vision Image">
+                    
                     <div class="project-info">
                         <h3>Low Momentum Lepton Study</h3>
                     </div>
                 </div>
             
                 <div class="project-box" onclick="showProjectInfo('Deep Neural Networks: Handwritten Marathi Letter Identification', 'Neural Networks trained to identify Handwritten Marathi - an Indian Language- letters.', 'images/LowMomentum.png','https://github.com/samsuy0304/Algo-Rhythms')">
-                    <img src="images/Suyash-website.png" alt="Computer Vision Image">
+                    
                     <div class="project-info">
                         <h3>Marathi Letter Identification</h3>
 
                     </div>
                 </div>
-    
-                <!-- <div class="project-box">
-                    <img src="images/Suyash-website.png" alt="Computer Vision Image">
-                    <div class="project-info">
-                        <h3>Spiking Neural Network Implementation</h3>
-                    </div>
-                </div> -->
-            
             </div>
         </section>
 
@@ -119,14 +108,14 @@
              <h2>Physics Simulations</h2>
             <div class="project-list">
                 <div class="project-box" onclick="showProjectInfo('Monte Carlo Simulation of Muon Decay', 'A framwork to simulate the decay times for cosmic muons with accurate background and noise, with appropriate noise and background.', 'images/Muons.png','https://github.com/samsuy0304/Muon_Decay_Simulation')">
-                    <img src="images/Suyash-website.png" alt="Simulation Image">
+                    
                     <div class="project-info">
                         <h3>Monte Carlo Simulation: Muon Decay</h3>
                     </div>
                 </div>
 
                 <div class="project-box" onclick="showProjectInfo('VNA Data Visualization: CMS Differeantial Pair Cables', 'Python code designed to read and visualize data acquired from Vector Network Analyzers (VNAs) during quality and reliability testing of multi-channel differential pair cables utilized in the CMS (Compact Muon Solenoid) upgrade.', 'images/VNA_measuremetn.png','https://github.com/samsuy0304/VNA_CMS')">
-                    <img src="images/Suyash-website.png" alt="Simulation Image">
+                    
                     <div class="project-info">
                         <h3>Double-Slit Interference Simulation</h3>
                     </div>
@@ -140,14 +129,14 @@
            <div class="project-list">
            
                <div class="project-box">
-                   <img src="images/Suyash-website.png" alt="Other Project Image">
+                   
                    <div class="project-info">
                        <h3>Quarked! Matter Mechanic</h3>
                    </div>
                </div>
 
                <div class="project-box">
-                   <img src="images/Suyash-website.png" alt="Other Project Image">
+                   
                    <div class="project-info">
                        <h3>Sorting Algorithm Visualization</h3>
                    </div>

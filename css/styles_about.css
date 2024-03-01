@@ -9,10 +9,14 @@ body {
   padding: 0;
   line-height: 1.6;
   overflow-x: hidden;
+  background-color: #ffffff;
 }
+
+
 .about-container {
-  width: 100%;
-  height: 100vh;
+  width: 90%;
+  margin: 10px auto; /* Center align by setting left and right margins to auto */
+  padding: 0px;
   
 }
 
@@ -32,7 +36,7 @@ section{
   justify-content: space-between;
   align-items: center;
   width: 95%;
-  padding: 30px 50px; /* Increase top and bottom padding */
+  padding: 30px 70px; /* Increase top and bottom padding */
 }
 
 .logo-name {
@@ -80,42 +84,47 @@ a:hover {
 
 
 
+
+
 .row {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Center the flex items horizontally */
+  justify-content: space-around; /* Center the flex items horizontally */
   align-items: center; /* Center the flex items vertically */
+  width: 85%;
+  padding-top: 5em;
+  
 }
 
 .column {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
+
+  
 }
 .description{
-  padding: 2em;
-  padding-right: 11em;
-  padding-left: 9em;
+
+  text-wrap: wrap;
 }
 /* Profile photo */
 .profile-photo {
   max-width: auto; /* Adjust the maximum width as needed */
-  height: 550px; /* Adjust spacing from the description */
-  float: right;
+  height: 450px; /* Adjust spacing from the description */
+  
   border-radius: 50%;
 }
 
-.projects-button {
-  margin-top: 10px;
-}
 
 .projects-button a {
-  margin-top: 15px;
+
   display: inline-block;
   text-decoration: none;
   background-color: #333;
   border-radius: 5px;
   border: 2px solid black;
-  background-color: white;
+  background-color: rgb(48, 223, 59);
   color: black;
   padding: 8px 16px; /* Adjust the padding as needed */
 }
@@ -149,59 +158,15 @@ a:hover {
 
 
 
-.arrange{
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-}
-
-#rotatingImage {
-  height: 550px;
-  top: 400px; left:-18%;
-  transition: transform 0.5s ease;
-  position: absolute;
-}
-
-#rotatingImage2 {
-  height: 650px;
-  top: 800px; right:-23%;
-  transition: transform 0.5s ease;
-  position: absolute;
-}
-
-
-.peaking-image{
-  padding: 2em;
-  padding-left: 3em;
-}
-
-.page-title {
-  width: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 7em;
-  
-  z-index: 1;
-  
-}
-
 .quote-wrapper {
   width: 85%;
   align-items: center;
   
+  padding-top: 30vh;
+  padding-bottom: 25vh;
 }
 
 
-
-.line {
-  border-left: 50vw solid rgb(1, 2, 1);
-  height: 1px;
-}
 
 .quote {
     
@@ -225,32 +190,9 @@ a:hover {
 
 
 
-/* Additional styles for other elements */
-h2, h3, h4, h5, h6 {
-  /* Example: Changing font for headings */
-  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
-  /* Additional styles for headings */
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
-  font-size: 40px;
-}
-
-h3{
-  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
-  font-size: 20px;
-  color: #363636;
-}
 
 
 
-p {
-  /* Example: Changing font for paragraphs */
-  font-family: 'Roboto', sans-serif; /* Change this to your desired font */
-  /* Additional styles for paragraphs */
-  font-size: 22px;
-}
 
 /* Style all font awesome icons */
 .fa {
@@ -299,8 +241,36 @@ p {
 
 
 /*intersts */
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+  
+  to {
+    background-position: -200% center;
+  }
+}
+
+.love-text {
+  font-family: "Anton", sans-serif;
+  line-height: 1; /* Adjust the value as needed */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  
+  margin: 40px;
+  margin-bottom: 50px;
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right, #7706a4, #8f43ad,#020a7c, #7706a4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  color: transparent;
+  white-space: nowrap;
+
+}
+
 .interests {
-  margin-top: 30px;
   display: flex;
   max-width: 75%;
   flex-wrap: wrap;
@@ -308,19 +278,21 @@ p {
   justify-content: center;
 }
 
-.interest-item {
-  
-  align-items: center;
-  margin-bottom: 15px;
 
-  padding: 20px;
-  width: 20%;
-  width: 20%;
+.interest-item {
+  width: 200px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0 0 20px 0 rgba(119, 6, 164, 0.177);
+  padding: 20px; /* Added padding */
+  margin: 10px; /* Added margin for spacing */
+  margin: 30px
 }
 
-.interest-item img{
-  width: 100px;
-  height: 100px;
+.interest-item img {
+  display: block; /* Added to remove extra space beneath images */
+  width: 100%;
+  height: auto;
 }
 
 .interest-item i {
