@@ -1,7 +1,7 @@
-title: "Your Name"
+title: "Suyash Sakhare"
 tagline: "Astronomer • Filmmaker • Educator • Writer • Coder"
 description: "Exploring universes in science, film, code, and ideas."
-url: "https://your-username.github.io"
+url: "https://samsuy0304.github.io/"
 baseurl: ""   # keep empty for user.github.io root sites
 permalink: /writing/:title/
 
@@ -18,13 +18,13 @@ defaults:
       type: "posts"
     values:
       layout: post
-      author: "Your Name"
+      author: "Suyash Sakhare"
   - scope:
       path: ""
       type: "experience"
     values:
       layout: post
-      author: "Your Name"
+      author: "Suyash Sakhare"
 
 markdown: kramdown
 plugins: []    # keep empty; GitHub Pages will still build this fine
