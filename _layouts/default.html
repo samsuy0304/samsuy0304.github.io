@@ -21,5 +21,16 @@
   </main>
   {% include footer.html %}
   <script defer src="{{ '/assets/js/stars.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggle = document.querySelector(".nav-toggle");
+      const nav = document.querySelector(".nav");
+      if (toggle && nav) {
+        toggle.addEventListener("click", () => {
+          nav.classList.toggle("active");
+        });
+      }
+    });
+  </script>
 </body>
 </html>

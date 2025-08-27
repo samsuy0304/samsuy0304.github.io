@@ -1,8 +1,8 @@
 ---
-title: "Time Travel: A Scientific, Philosophical, and Literary Inquiry"
+title: "Why Do the Weekends Vanish So Quickly? A Scientific, Philosophical, and Literary Look at Time"
 date: 2019-05-05
-tags: [science, philosophy, literature, time]
-excerpt: "From Einstein to H.G. Wells, from paradoxes to plot twists, time travel has always been more than science fiction. It is a mirror of how we think about cause, consequence, and ourselves."
+tags: [science, literature]
+excerpt: "Do not meddle in your own timeline unless you enjoy paradoxes."
 ---
 
 ## Time Travel: A Scientific, Philosophical, and Literary Inquiry  
