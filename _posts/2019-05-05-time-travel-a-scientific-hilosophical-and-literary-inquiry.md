@@ -7,7 +7,7 @@ excerpt: "From Einstein to H.G. Wells, from paradoxes to plot twists, time trave
 
 ## Time Travel: A Scientific, Philosophical, and Literary Inquiry  
 
-Time has always been humanity’s most elusive companion. It slips by unnoticed when we are happy, crawls when we are bored, and defies our every attempt to pin it down. This is why the idea of traveling through time — stepping outside its steady rhythm, bending its arrow, or even reversing it — has fascinated us for centuries. Whether in physics labs, philosophy seminars, or novels read late into the night, time travel is never far from our imagination.  
+Time has always been humanity’s most elusive companion. It slips by unnoticed when we are happy, crawls when we are bored, and defies our every attempt to pin it down. This is why the idea of traveling through time, stepping outside its steady rhythm, bending its arrow, or even reversing it, has fascinated us for centuries. Whether in physics labs, philosophy seminars, or novels read late into the night, time travel is never far from our imagination.  
 
 ### The Physics of Time Travel  
 
@@ -17,7 +17,7 @@ But relativity also permits stranger possibilities. If you could ride a spaceshi
 
 ### The Paradoxes of Philosophy  
 
-Science may allow the mathematics of time travel, but philosophy raises the awkward questions. What happens if you meet your younger self? Could you kill your own grandfather and thereby prevent your own birth? These puzzles — the so-called paradoxes — reveal how tightly our ideas of identity, causality, and free will are bound to time’s arrow.  
+Science may allow the mathematics of time travel, but philosophy raises the awkward questions. What happens if you meet your younger self? Could you kill your own grandfather and thereby prevent your own birth? These puzzles, the so-called paradoxes, reveal how tightly our ideas of identity, causality, and free will are bound to time’s arrow.  
 
 Some philosophers argue that paradoxes show time travel is logically impossible. Others reply that the paradoxes simply reveal the limits of our imagination. Perhaps events are self-consistent: if you went back, you would not kill your grandfather because you never did. The timeline bends but does not break. In this view, time is less a river you can reroute than a novel already written, every page fixed, even if you can flip back and forth.  
 

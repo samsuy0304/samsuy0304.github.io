@@ -2,7 +2,7 @@
 layout: page
 title: "Experience Letters"
 permalink: /experience/
-subtitle: "Short essays about my past work — in order."
+subtitle: "Short essays about my past work in order."
 ---
 
 <ul class="card-list">
