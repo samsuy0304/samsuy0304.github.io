@@ -1,0 +1,30 @@
+title: "Your Name"
+tagline: "Astronomer • Filmmaker • Educator • Writer • Coder"
+description: "Exploring universes in science, film, code, and ideas."
+url: "https://your-username.github.io"
+baseurl: ""   # keep empty for user.github.io root sites
+permalink: /writing/:title/
+
+# Custom collection for experience letters
+collections:
+  experience:
+    output: true
+    permalink: /experience/:title/
+
+# Default layouts for posts & experience entries
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Your Name"
+  - scope:
+      path: ""
+      type: "experience"
+    values:
+      layout: post
+      author: "Your Name"
+
+markdown: kramdown
+plugins: []    # keep empty; GitHub Pages will still build this fine
