@@ -5,8 +5,6 @@ role: "Research Assistant"
 org: "Quality and Reliability Testing Lab"
 date: 2022-05-01
 ---
-
-# Testing Cables for CERN's CMS Detector
  
 From late 2020 to mid 2022, I worked as a research assistant helping test cables for the CMS (Compact Muon Solenoid) experiment at CERN — the same facility that confirmed the Higgs boson in 2012. My small piece of it: making sure tiny signal cables actually worked.
  
