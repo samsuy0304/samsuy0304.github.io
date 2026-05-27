@@ -27,4 +27,5 @@ defaults:
       author: "Suyash Sakhare"
 
 markdown: kramdown
-plugins: []    # keep empty; GitHub Pages will still build this fine
+plugins:
+  - jekyll-sitemap
